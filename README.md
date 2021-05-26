@@ -40,5 +40,7 @@ For example, an hourly data could have a lookback window of 4hrs, 8hrs or 12hrs 
 
 3) RRL Simplified.ipynb
 
-> This is the current version
+> This is the current version.
+>
+> Edit: Navigate to "Stock Tickers" folder and run "RRL_Simplified_VM" instead.
 
