@@ -33,7 +33,7 @@ Remember to change your file path accordingly for the stock ticker data you will
 > Simplified version for data resampling
 
 - Doesn't plot any graphs for data interpretation
-- Outputs 15min and 30min data for model training
+- Outputs 15min, 30min and 60min data for model training
 
 5) Ticker Data
 
