@@ -43,3 +43,39 @@ Remember to change your file path accordingly for the stock ticker data you will
 
 LMND don't have enough data points as it only got listed in 2020
 
+## Findings
+
+> Deep Evolutionary Agent (DEA)
+
+1) Increasing Max Buy and Sell size has a positive impact on the Net Returns % for the same ticker
+
+2) Performance wise is better than RRL, 3 digit returns vs 2 digit returns. 
+
+> Recurrent Reinforcement Learning (RRL)
+
+1) Highly correlated data (from Heatmap) doesn't exhibit similar return performance when tested on. The initial assumption to use similar parameters for their training backfired and thus to obtain optimal performance, one has to customize each model parameters per stock (either grid/random search)
+
+2) Increasing Epoch does not have a positive impact on performance
+
+3) Increasing Lookback Window increases performance for 15min data however the maximum threshold has not been tested
+
+4) Optimal learning rate is 0.001 and 0.003 based on different stocks. Increasing learning rate to 0.01 has a detrimental impact on performance as the learning is done faster but at the compromise of achieving sub-optimal set of weights. 
+
+## Some Results
+
+**DEA**
+
+| Ticker | Performance (%) | Max Buy/Sell | Learning Rate |      |
+| ------ | --------------- | ------------ | ------------- | ---- |
+| QQQ    | 315.8           | 10           | 0.03          |      |
+| QQQ    | 243.4           | 5            | 0.03          |      |
+| BLK    | 404/334         | 5            | 0.03          |      |
+| BLK    | 620             | 10           | 0.03          |      |
+| BLK    | 2983            | 100          | 0.03          |      |
+|        |                 |              |               |      |
+|        |                 |              |               |      |
+|        |                 |              |               |      |
+|        |                 |              |               |      |
+
+**RRL**
+

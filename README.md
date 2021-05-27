@@ -5,7 +5,7 @@ Using RRL as one of the team's algorithmic models in a volatile market environme
 
 
 
-## Thought Process
+## Initial Thought Process
 
 1) We did correlation to find out which tickers exhibit the similar distribution
 
@@ -30,6 +30,8 @@ For example, an hourly data could have a lookback window of 4hrs, 8hrs or 12hrs 
 
 ## File Usage
 
+[27 May Update]: The below files have been shifted to the folder "Old Code"
+
 1) RRL Backup Version.ipynb
 
 > This is the first version of RRL done on Colab before we shifted it to Jupyter on Azure's VM
@@ -43,4 +45,16 @@ For example, an hourly data could have a lookback window of 4hrs, 8hrs or 12hrs 
 > This is the current version.
 >
 > Edit: Navigate to "Stock Tickers" folder and run "RRL_Simplified_VM" instead.
+
+## Code Resources
+
+**On Colab**
+
+[Deep Trading]([Deep Trading.ipynb - Colaboratory (google.com)](https://colab.research.google.com/drive/1--LJeV_bRaYZZoZNJro4LJ79hKaHpXpZ#scrollTo=KIS0xonWMMMw))
+
+[Deep Determinist Policy Gradient - RL]([Deep Determinist Policy Gradient.ipynb - Colaboratory (google.com)](https://colab.research.google.com/drive/1L3-D2ZmGZkPRsB9gb5BviGkSkMTLti7_#scrollTo=evR-UsF19IAu))
+
+[Agent Trading Strategies]([Agent Trading.ipynb - Colaboratory (google.com)](https://colab.research.google.com/drive/1FzLCI0AO3c7A4bp9Fi01UwXeoc7BN8sW#scrollTo=MUZcLPJAnEAT))
+
+[Deep Evolution Strategy (with and without Bayesian Optimisation)]([Free Agent Trading.ipynb - Colaboratory (google.com)](https://colab.research.google.com/drive/1oWGPasjf8lMkCMdf-LuUDVGAlhRfaUoc))
 
