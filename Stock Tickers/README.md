@@ -77,5 +77,16 @@ LMND don't have enough data points as it only got listed in 2020
 |        |                 |              |               |      |
 |        |                 |              |               |      |
 
+**After fixing DEA Algo**
+
+| Ticker | Performance (%) | Max Buy/Sell | Learning Rate | Remarks                                                      |
+| ------ | --------------- | ------------ | ------------- | ------------------------------------------------------------ |
+| BABA   | -80             | 100          |               | BABA did not sell its portfolio before the iteration ran out, if we gave it a couple of more days, BABA will have significant returns. |
+| SHOP   | 3548            |              |               |                                                              |
+| C      | 266             | 100          |               |                                                              |
+|        |                 |              |               |                                                              |
+|        |                 |              |               |                                                              |
+|        |                 |              |               |                                                              |
+
 **RRL**
 
