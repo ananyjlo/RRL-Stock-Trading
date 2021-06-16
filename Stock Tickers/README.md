@@ -13,31 +13,27 @@ Create a new cell in their .ipynb file and run it. Your browser should appear a 
 
 Refer to this [Github Notebook]([Lean/DataConsolidationAlgorithm.py at master · QuantConnect/Lean (github.com)](https://github.com/QuantConnect/Lean/blob/master/Algorithm.Python/DataConsolidationAlgorithm.py)) for Quant Connect API Tutorial.
 
-2) Data Cleaning for Train/Test.py or ipynb
-
-> For data cleaning
-
-You can run this in your local IDE or on Google Colab 
-
-Remember to change your file path accordingly for the stock ticker data you will like to call
-
-3) RRL_Simplified_VM.ipynb
+2) RRL_Simplified_VM.ipynb
 
 > Solely for running models on Azure VM
 
 - All other code changes that doesn't require a GPU will be done locally on laptop and then push to Github. 
 - On Azure VM, remember to pull the latest files from Git before running this Jupyter Notebook to train your model.
 
-4) Data Cleaning Final.ipynb
+3) Data Cleaning Final.ipynb
 
 > Simplified version for data resampling
 
 - Doesn't plot any graphs for data interpretation
 - Outputs 15min, 30min and 60min data for model training
 
-5) Ticker Data
+4) Ticker Data
 
 - Obtain from the "Final Data" folder and select the respective timeframe you want
+
+5) Deep Evolution Strategy
+
+- Uses evolution strategy to select the best weights to train a trading agent
 
 ## Notes
 
@@ -84,7 +80,7 @@ LMND don't have enough data points as it only got listed in 2020
 | BABA   | -80             | 100          |               | BABA did not sell its portfolio before the iteration ran out, if we gave it a couple of more days, BABA will have significant returns. |
 | SHOP   | 3548            |              |               |                                                              |
 | C      | 266             | 100          |               |                                                              |
-|        |                 |              |               |                                                              |
+| NVDA   | 2553            | 100          |               |                                                              |
 |        |                 |              |               |                                                              |
 |        |                 |              |               |                                                              |
 
